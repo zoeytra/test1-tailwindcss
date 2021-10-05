@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      spacing: {
+        'main-span': '72px'
+      },
       colors: {
         'fb-bg': '#18191a',
         'fb-header': '#242526',
